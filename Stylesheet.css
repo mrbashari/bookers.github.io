@@ -1,0 +1,341 @@
+body {
+    color: #555;
+    margin:0;
+    direction: rtl;
+       
+}
+
+#header {
+    height: 150px;
+    line-height: 150px;
+    font-family: Sahel FD;
+    
+}
+
+#header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+
+#header a:hover {
+    color: rgb(228, 196, 13);
+    transition: all 0.5s;
+}
+
+#header-title {
+    display: block;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header-nav {
+    display: block;
+    float: left;
+}
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#twitterLogo {
+    height: 20px;
+    display: inline;
+    padding-left: 5px;
+    vertical-align: middle;
+    float: right;
+}
+
+#instagramLogo {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+#footer {
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.column1 {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 170px;
+    
+}
+    
+.column2 {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top; 
+}
+#footer h4 {
+    color:rgb(59, 59, 59);
+    font-family: Sahel FD;
+    font-weight: bold;
+    direction: rtl;
+    
+}
+
+#footer p {
+    color: dimgray;
+    font-family: Sahel FD;
+    font-size: 13px;
+    direction: rtl;
+}
+
+a {
+    color:dimgray;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+
+a:hover {
+    color: #F6A623
+}
+
+.post {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 30px 0;
+    padding-bottom: 40px;
+}
+
+.post-author img {
+    margin: 0 auto; 
+    width: 50px;
+    height: 50px;
+    border-radius: 80px 80px 80px 80px;
+    vertical-align: middle;
+        
+}
+
+.post-author span {
+    padding-right: 16px;
+    font-family: Sahel FD;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.post-date {
+    color: #d2d2d2;
+    font-size: 14px;
+    font-family: Sahel FD;
+    
+}
+
+h1, h2, h3, h4 {
+    color:#333;
+    font-family: Sahel FD;
+    font-weight: bold;
+}
+
+p {
+    line-height: 2;
+    font-family: Sahel FD;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.about-author img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+.about {
+    padding: 60px;
+    text-align: center;
+}
+
+
+#like {
+    display: inline;
+    float: right;
+}
+
+#likes {
+    display: inline;
+    padding-right: 10px;
+    font-weight: bold;
+    color: slategrey;
+    font-size: 18px;
+}
+
+#liketitle {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+}
+
+#likecounter {
+    float: left;
+    font-family: Sahel FD;
+}
+#heartIcon{
+    width: 20px;    
+    height: 20px;
+    vertical-align: middle;
+
+}
+#faved {
+    font-family: Sahel FD;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    outline: 0em;
+}
+
+#faved span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#faved span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#faved:hover span {
+    padding-right: 25px;
+}
+#faved:hover {
+    color: goldenrod;
+}
+
+#faved:hover span:after{
+    opacity: 1;
+  right: 0;
+}
+
+#logoimg {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.titlesignup {
+    text-align: center;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+#inputbox {
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    margin: 30px;
+    font-family: Sahel FD;
+    border: none;
+    padding: 10px 60px 10px 60px;
+    border-radius: 30px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    color:goldenrod;
+}
+#usernameinput {
+    height: 10px;
+    width: 20%;
+    padding: 20px;
+    border: none;
+    outline: 0px;
+    font-family: Sahel FD;
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 30px;
+}
+#passwordinput {
+    height: 10px;
+    width: 20%;
+    padding: 20px;
+    border: none;
+    outline: 0px;
+    font-family: Sahel FD;
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#postText {
+    width: 50%;
+    text-align: right;
+    border: lightgray solid 0.5px;
+    outline: none;
+    font-family: Sahel FD;
+    font-size: 13px;
+    height: 70px;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.sendcomment {
+    font-family: Sahel FD;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    outline: 0em;
+    display: block;
+    margin-right: 1125px;
+    
+}
+
+#posts {
+    display: block;
+    padding-right: 410px;
+}
+
+.post-container:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
